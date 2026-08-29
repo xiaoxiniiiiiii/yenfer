@@ -1,0 +1,20 @@
+{
+  "name": "yenfer-home-goods",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepare:images": "node scripts/crop-sheets.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "sharp": "latest"
+  },
+  "devDependencies": {}
+}
